@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     clean : {
       doc : 'jsdoc',
-      covevx : 'covevx'
+      coverage : 'coverage'
     },
     eslint: {
       options: {
@@ -50,6 +50,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['test', 'build']);
   grunt.registerTask('build', ['clean:doc','jsdoc']);
-  grunt.registerTask('test', ['eslint', 'clean:covevx', 'mocha_istanbul']);
+  grunt.registerTask('test', ['eslint', 'clean:coverage', 'mocha_istanbul']);
   grunt.registerTask('test:fast', ['mocha_istanbul']);
 };
