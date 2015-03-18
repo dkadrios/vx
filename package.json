@@ -2,7 +2,7 @@
   "name": "vx",
   "main": "index.js",
   "description": "Test execution environment",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [
     "vx",
     "testing"
