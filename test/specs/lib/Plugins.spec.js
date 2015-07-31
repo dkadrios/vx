@@ -1,4 +1,4 @@
-var Plugins = v.lib('Plugins');
+var Plugins = hmt.lib('Plugins');
 
 describe('Plugins', function () {
 });

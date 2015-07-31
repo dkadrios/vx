@@ -1,0 +1,13 @@
+module.exports = {
+  'plugins': {
+    'vx-unit': {
+      tests: 'test/*.js',
+      framework: 'foobar'
+    },
+
+    'vx-mocha': {},
+
+    'vx-http': {}
+
+  }
+};
